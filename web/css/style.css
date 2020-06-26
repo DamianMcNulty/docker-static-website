@@ -1,0 +1,38 @@
+.header {
+    top: 39px;
+    left: 110px;
+    width: 1113px;
+    /* height: 42px; */
+    position: absolute;
+}
+
+.br {
+    border: 1px dashed red;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.p1 {
+    padding: 1rem;
+}
+
+.nav {
+    position: relative;
+}
+
+.nav_centre {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.nav_right {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(-50%, 0);
+}
